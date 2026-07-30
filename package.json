@@ -1,0 +1,26 @@
+{
+  "name": "physics4all",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://shankarpandala.github.io/physics4all",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.5.0",
+    "@eslint/eslintrc": "^3.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0"
+  }
+}
