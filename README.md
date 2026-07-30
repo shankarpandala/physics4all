@@ -1,3 +1,42 @@
-# physics4all
+# ⚛ Physics4All
 
-Physics for everyone — from first principles to the frontier. Curriculum and app in progress.
+**Relearn physics from class 1 to graduation — the way the world's best systems teach it.**
+
+Physics4All is an interactive, structured learning web app for adults who want to (re)learn physics from absolute basics to advanced undergraduate level, **including every bit of mathematics needed along the way**. It is the sibling project of [learn-semi](https://github.com/shankarpandala/learn-semi) and follows the same architecture: a static Next.js + Tailwind PWA with progress tracking, quizzes, and a subject → chapter → section content model, deployed to GitHub Pages.
+
+## The curriculum
+
+The syllabus is not invented — it is synthesized from deep research into:
+
+1. **How the strongest school systems teach physics, class 1–12** — Singapore, China, Russia, Japan, South Korea, Finland, Estonia, UK, Germany, India, plus IB and AP ([research report](docs/research/01-school-systems.md))
+2. **How the best universities structure the physics degree** — MIT, Cambridge, Oxford, LMU Munich, the IITs, and the Russian Landau tradition, plus the canonical self-study roadmaps ('t Hooft, Rigetti, Susskind) ([research report](docs/research/02-university-programs.md))
+3. **The complete math pathway physics requires** — from arithmetic to the Boas-level math-methods canon, with a full physics↔math dependency map ([research report](docs/research/03-math-pathway.md))
+
+The result: **6 phases · 34 subjects · ~208 chapters · ~1,000 hours** — a three-pass spiral through school physics (phenomena → first quantitative tour → theory pass) followed by the universal university two-pass structure (general physics → the theoretical core four), with math subjects interleaved just-in-time, one step ahead of the physics that needs them.
+
+➡ **[Read the full curriculum](docs/CURRICULUM.md)**
+
+| Phase | Equivalent | Content |
+|---|---|---|
+| 1. Foundations | Classes 1–7 (compressed) | Numbers & proportion · all physics phenomena · scientific method |
+| 2. The First Full Tour | Classes 8–10 | All of physics at one-formula depth + algebra & geometry |
+| 3. Quantitative Physics | Classes 11–12 | The theory pass with vectors & trig + precalculus |
+| 4. University General Physics | BSc years 1–2 | Calculus-based mechanics, E&M, waves, special relativity + calculus → linear algebra |
+| 5. The Theoretical Core | BSc years 2–3 | Lagrangian mechanics · electrodynamics · quantum mechanics · statistical mechanics + math methods + computation |
+| 6. Advanced & Frontier | BSc years 3–4 | Solid state · nuclear & particle · astro & cosmology · general relativity · QFT gateway |
+
+## Tech (mirrors learn-semi)
+
+- Next.js (static export) + React + Tailwind CSS
+- Content as data: `src/data/curriculum.js` + one file per subject (chapters → sections → quizzes)
+- Interactive physics simulations embedded per chapter
+- Dark mode, sidebar navigation, localStorage progress tracking, PWA offline support
+- GitHub Actions → GitHub Pages deployment
+
+## Status
+
+- [x] Deep research: school systems, university programs, math pathway
+- [x] Master curriculum (chapters & topics) — **under review**
+- [ ] App scaffold (shell, navigation, data model, deploy workflow)
+- [ ] Content build-out, phase by phase
+- [ ] Interactive simulations
