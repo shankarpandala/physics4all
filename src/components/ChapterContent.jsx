@@ -9,6 +9,7 @@ import {
   getPrevChapter,
 } from "@/data/curriculum";
 import { isChapterComplete, markChapterComplete } from "@/lib/progress";
+import Interactive from "@/components/interactive";
 
 export default function ChapterContent({ subjectId, chapterId }) {
   const [completed, setCompleted] = useState(false);
@@ -98,6 +99,7 @@ export default function ChapterContent({ subjectId, chapterId }) {
               className="content-prose"
               dangerouslySetInnerHTML={{ __html: section.content }}
             />
+            {section.interactive && <Interactive name={section.interactive} />}
           </section>
         ))}
       </div>
