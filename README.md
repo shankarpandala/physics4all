@@ -33,10 +33,21 @@ The result: **6 phases · 34 subjects · ~208 chapters · ~1,000 hours** — a t
 - Dark mode, sidebar navigation, localStorage progress tracking, PWA offline support
 - GitHub Actions → GitHub Pages deployment
 
+## Development
+
+```bash
+npm install
+npm run dev    # local dev server
+npm run build  # static export to ./out
+```
+
+Deployment: pushes to `main` trigger the GitHub Pages workflow (`.github/workflows/deploy.yml`), publishing the static export to the `gh-pages` branch. Enable GitHub Pages (source: `gh-pages` branch) in the repository settings after the first deploy.
+
 ## Status
 
 - [x] Deep research: school systems, university programs, math pathway
-- [x] Master curriculum (chapters & topics) — **under review**
-- [ ] App scaffold (shell, navigation, data model, deploy workflow)
-- [ ] Content build-out, phase by phase
+- [x] Master curriculum (chapters & topics) — merged
+- [x] App scaffold (shell, navigation, data model, PWA, deploy workflow)
+- [x] Phase 1 content (Subjects 1–3, full chapters + quizzes); Subjects 4–34 as structured outlines
+- [ ] Content build-out, phase by phase (Phases 2–6)
 - [ ] Interactive simulations
