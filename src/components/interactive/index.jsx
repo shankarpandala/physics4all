@@ -3,11 +3,13 @@
 import MotionGraphs from "./MotionGraphs";
 import WaveSuperposition from "./WaveSuperposition";
 import OhmsLaw from "./OhmsLaw";
+import ProjectileMotion from "./ProjectileMotion";
 
 const REGISTRY = {
   "motion-graphs": { component: MotionGraphs, title: "Motion Graphs Explorer" },
   "wave-superposition": { component: WaveSuperposition, title: "Wave Superposition Sandbox" },
   "ohms-law": { component: OhmsLaw, title: "Ohm's Law Circuit Lab" },
+  "projectile-motion": { component: ProjectileMotion, title: "Projectile Launcher" },
 };
 
 export default function Interactive({ name }) {
