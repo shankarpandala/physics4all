@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[8492,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/0f2k148x61ku0.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js","/physics4all/_next/static/chunks/2-qord6euc-0-.js"],"default"]
-3:I[97367,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/0f2k148x61ku0.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+2:I[8492,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/430m-d1ncxac_.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js","/physics4all/_next/static/chunks/2-qord6euc-0-.js"],"default"]
+3:I[97367,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/430m-d1ncxac_.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"subjectId":"special-relativity","chapterId":"toward-general-relativity"}],[["$","script","script-0",{"src":"/physics4all/_next/static/chunks/2-qord6euc-0-.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"hoBSps9YOKFVPEVkMaild"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"subjectId":"special-relativity","chapterId":"toward-general-relativity"}],[["$","script","script-0",{"src":"/physics4all/_next/static/chunks/2-qord6euc-0-.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Cy6v5FZNH-vMWBV3Ofb25"}
 5:null
