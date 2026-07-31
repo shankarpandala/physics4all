@@ -6,6 +6,8 @@ import OhmsLaw from "./OhmsLaw";
 import ProjectileMotion from "./ProjectileMotion";
 import DrivenOscillator from "./DrivenOscillator";
 import FourierBuilder from "./FourierBuilder";
+import QuantumWell from "./QuantumWell";
+import IsingModel from "./IsingModel";
 
 const REGISTRY = {
   "motion-graphs": { component: MotionGraphs, title: "Motion Graphs Explorer" },
@@ -14,6 +16,8 @@ const REGISTRY = {
   "projectile-motion": { component: ProjectileMotion, title: "Projectile Launcher" },
   "driven-oscillator": { component: DrivenOscillator, title: "Resonance Lab" },
   "fourier-builder": { component: FourierBuilder, title: "Fourier Series Builder" },
+  "quantum-well": { component: QuantumWell, title: "Particle-in-a-Box Explorer" },
+  "ising-model": { component: IsingModel, title: "Ising Model — Live Phase Transition" },
 };
 
 export default function Interactive({ name }) {
