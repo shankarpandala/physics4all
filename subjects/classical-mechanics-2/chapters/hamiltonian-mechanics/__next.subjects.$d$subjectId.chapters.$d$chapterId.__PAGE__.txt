@@ -2,5 +2,5 @@
 2:I[8492,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/343l367oym_49.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js","/physics4all/_next/static/chunks/3a8qhwkq8517j.js"],"default"]
 3:I[97367,["/physics4all/_next/static/chunks/1x99pjlrm24vr.js","/physics4all/_next/static/chunks/343l367oym_49.js","/physics4all/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"subjectId":"classical-mechanics-2","chapterId":"hamiltonian-mechanics"}],[["$","script","script-0",{"src":"/physics4all/_next/static/chunks/3a8qhwkq8517j.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"mVwuV1skdXl7bhC4_NI_6"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"subjectId":"classical-mechanics-2","chapterId":"hamiltonian-mechanics"}],[["$","script","script-0",{"src":"/physics4all/_next/static/chunks/3a8qhwkq8517j.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pbHZNh0BMongtR9Hf-5YB"}
 5:null
