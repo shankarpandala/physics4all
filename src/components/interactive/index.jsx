@@ -4,12 +4,16 @@ import MotionGraphs from "./MotionGraphs";
 import WaveSuperposition from "./WaveSuperposition";
 import OhmsLaw from "./OhmsLaw";
 import ProjectileMotion from "./ProjectileMotion";
+import DrivenOscillator from "./DrivenOscillator";
+import FourierBuilder from "./FourierBuilder";
 
 const REGISTRY = {
   "motion-graphs": { component: MotionGraphs, title: "Motion Graphs Explorer" },
   "wave-superposition": { component: WaveSuperposition, title: "Wave Superposition Sandbox" },
   "ohms-law": { component: OhmsLaw, title: "Ohm's Law Circuit Lab" },
   "projectile-motion": { component: ProjectileMotion, title: "Projectile Launcher" },
+  "driven-oscillator": { component: DrivenOscillator, title: "Resonance Lab" },
+  "fourier-builder": { component: FourierBuilder, title: "Fourier Series Builder" },
 };
 
 export default function Interactive({ name }) {
