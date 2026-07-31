@@ -45,9 +45,30 @@ Deployment: pushes to `main` trigger the GitHub Pages workflow (`.github/workflo
 
 ## Status
 
+**The curriculum is complete: all 34 subjects, 208 chapters, 884 sections and 1,015 quiz questions are written.**
+
 - [x] Deep research: school systems, university programs, math pathway
-- [x] Master curriculum (chapters & topics) — merged
+- [x] Master curriculum (chapters & topics)
 - [x] App scaffold (shell, navigation, data model, PWA, deploy workflow)
-- [x] Phase 1 content (Subjects 1–3, full chapters + quizzes); Subjects 4–34 as structured outlines
-- [ ] Content build-out, phase by phase (Phases 2–6)
-- [ ] Interactive simulations
+- [x] Phase 1 — Foundations (Subjects 1–3)
+- [x] Phase 2 — The First Full Tour (Subjects 4–9)
+- [x] Phase 3 — Quantitative Physics (Subjects 10–15)
+- [x] Phase 4 — University General Physics (Subjects 16–22)
+- [x] Phase 5 — The Theoretical Core (Subjects 23–29)
+- [x] Phase 6 — Advanced & Frontier (Subjects 30–34)
+- [x] Interactive simulations (7 labs)
+
+### Interactive labs
+
+| Lab | Lives in |
+|---|---|
+| Motion Graphs Explorer | Motion & Forces → Describing Motion |
+| Wave Superposition Sandbox | Sound, Light & Optics → Wave Basics |
+| Ohm's Law Circuit Lab | Electricity & Magnetism → Ohm's Law |
+| Projectile Launcher | Mechanics → Kinematics in 1D & 2D |
+| Resonance Lab | Classical Mechanics I → Oscillations in Depth |
+| Fourier Series Builder | Waves, Vibrations & Optics → Fourier Analysis |
+| Particle-in-a-Box Explorer | Quantum Mechanics I → One-Dimensional Problems |
+| Ising Model (live phase transition) | Statistical Mechanics → Phase Transitions |
+
+Future work: more simulations, KaTeX rendering for the advanced phases, and per-chapter problem sets with worked solutions.
